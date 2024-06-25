@@ -1,6 +1,6 @@
 # A B and C are vault tokens, in dollar value.
 # For better understanding, I suggest thinking in terms of USD, and not actual token amounts
-# After all, this is what matters for users.
+# After all, this is what matters to users.
 # Weights are equal (1/3)
 A = 100
 B = 100
