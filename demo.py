@@ -9,7 +9,7 @@ C = 100
 # S is total supply of index tokens in circulation
 S = 100
 
-# input calculates the amount of index tokens you recieve by providing input_value tokens in token A.
+# input calculates the amount of index tokens you recieve by providing input_value tokens in token `token`.
 # need to manually update S and basket after invoked
 def input(input_value, token="A"):
     frac = 0
@@ -24,7 +24,7 @@ def input(input_value, token="A"):
     indexOut = frac * S
     return indexOut
 
-# out calculates the amount of token A, B, or C you recieve by providing outAmount index tokens.
+# out calculates the amount of token A, B, or C you receive by providing outAmount index tokens.
 # need to manually update S and basket after invoked
 def out(outAmount, token="A"):
     par = 1 - outAmount / S
